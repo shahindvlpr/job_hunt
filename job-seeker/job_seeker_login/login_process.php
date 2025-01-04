@@ -1,5 +1,5 @@
 <?php 
-    require_once('../../db/dbh.php');
+    require_once('../../db.php');
     $username = $_POST['Username'];
     $password = $_POST['password'];
 
