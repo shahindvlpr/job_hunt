@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background blur Popup</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container" id="blur">
+        <div class="content">
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, 
+                neque reiciendis. Blanditiis, asperiores molestias sed
+            </h2>
+            <img src="harry.jpg" width="300px">
+            <a href="#" onclick="toggle()">Readmore</a>
+        </div>
+    </div>
+    <div id="popup">
+        <h2>Hello World!!!</h2>
+        <p>Lorem ipsum dolor sit, amet  exercitationem dolorem 
+        provident ullam quibusdam facere fugit aperiam recusandae accusantium!</p>
+        <a href="#" onclick="toggle()">Close</a>
+    </div>
+    <script>
+        function toggle() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
