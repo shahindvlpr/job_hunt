@@ -1,6 +1,5 @@
 <?php
-require_once('../../db/dbh.php');
-
+require_once('../../db.php');
 $json = file_get_contents('php://input');
 $data = json_decode($json);
 

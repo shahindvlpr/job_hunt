@@ -1,5 +1,5 @@
 <?php
-	require_once('../../db/dbh.php');
+	require_once('../../db.php');
 	session_start();
 	$seeker_id = $_SESSION['job_seeker_id'];
   $post_id = $_GET['post_id'];

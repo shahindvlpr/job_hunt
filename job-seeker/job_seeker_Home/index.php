@@ -1,5 +1,5 @@
 <?php
-    require_once('../../db/dbh.php');
+    require_once('../../db.php');
 	session_start();
 	if (!isset($_SESSION['job_seeker_id'])){
 		header('location:../job_seeker_login/index.html');

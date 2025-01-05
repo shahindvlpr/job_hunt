@@ -1,5 +1,5 @@
 <?php
-    require_once('../db/dbh.php');
+    require_once('../db.php');
     /*$query_rectuiter_complain = "SELECT * FROM recruiter_complain;";
     $execute_recruiter_complain = mysqli_query($conn,$query_rectuiter_complain);
     $recruiter_complain_row = mysqli_num_rows($execute_recruiter_complain);*/
